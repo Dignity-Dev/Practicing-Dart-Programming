@@ -16,4 +16,12 @@ void main() {
   // Doubles
   double otherNum = 12.56778;
   print("Double: $otherNum");
+
+  // Booleans
+  bool myDecision = false;
+  print("Boolean: $myDecision");
+
+  // Dynamic
+  dynamic fullname = "Basheer Haadi Ajala";
+  print("Dynamic: $fullname");
 }
