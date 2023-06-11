@@ -34,6 +34,6 @@ void main() {
   print(mixedList);
 
   // Remove Item
-  mixedList.removeAt("Jola");
-  print(mixedList)
+  mixedList.removeAt(1);
+  print(mixedList);
 }
