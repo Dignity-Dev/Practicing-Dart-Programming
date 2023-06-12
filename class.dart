@@ -2,6 +2,10 @@ void main() {
   // Create Person Class
   Person p1 = Person("John", "Male", 44);
   p1.showData();
+
+  // Create a second person
+  Person p2 = Person("Basheer", "Female", 30);
+  p2.showData();
 }
 
 class Person {
