@@ -4,8 +4,8 @@ void main() {
   p1.showData();
 
   // Create a second person
-  Person p2 = Person("Basheer", "Female", 30);
-  p2.showData();
+  // Person p2 = Person("Basheer", "Female", 30);
+  // p2.showData();
 }
 
 class Person {
