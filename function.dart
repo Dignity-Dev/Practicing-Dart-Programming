@@ -4,13 +4,13 @@ void main() {
   }
 
   // passing parameters
-  myFunc1(String name) {
-    print("Hello $name, Welcome to dart function");
+  myFunc1(String name, {name2:"friends"}) {
+    print("Hello $name and $name2, Welcome to dart function");
   }
 
   // we can pass a variable
   var thing = myFunc();
-  print(thing);
+  print(thing);  
   print(myFunc());
 
   // print with argument
